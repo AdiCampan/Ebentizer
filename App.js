@@ -1,10 +1,15 @@
 import { StatusBar } from 'expo-status-bar';
-import { StyleSheet, Text, View } from 'react-native';
+import { StyleSheet, Text, View, TouchableOpacity } from 'react-native';
+import { db } from './firebase';
 
 export default function App() {
   return (
+
     <View style={styles.container}>
-      <Text>Open up App.js to start working on your app!</Text>
+      <TouchableOpacity onPress={addPerson}>
+        <Text>Adaugă</Text>
+      </TouchableOpacity>
+      <Text>Hola Mundo</Text>
       <StatusBar style="auto" />
     </View>
   );
