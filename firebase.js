@@ -6,12 +6,12 @@ import { getFirestore } from "firebase/firestore";
 
 // Your web app's Firebase configuration
 const firebaseConfig = {
-  apiKey: "AIzaSyBUy2HgGFC13-grF5KWBlIRZbP19xjZBQI",
-  authDomain: "aplicacion-eben-ezer.firebaseapp.com",
-  projectId: "aplicacion-eben-ezer",
-  storageBucket: "aplicacion-eben-ezer.appspot.com",
-  messagingSenderId: "550999383648",
-  appId: "1:550999383648:web:1ca8afe8c15ae6fc02ed05"
+  apiKey: "AIzaSyBjJLkYgPeoTffA1hjYvE_Ny9Gp2W41k_U",
+  authDomain: "ebentizer.firebaseapp.com",
+  projectId: "ebentizer",
+  storageBucket: "ebentizer.appspot.com",
+  messagingSenderId: "826182261195",
+  appId: "1:826182261195:web:cb7f4e5c48aadd13c5be4e"
 };
 
 // Initialize Firebase
